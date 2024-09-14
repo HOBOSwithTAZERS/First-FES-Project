@@ -30,6 +30,10 @@ p {
     margin: 0 auto;
 }
 
+.container {
+    padding: 50px 0;
+}
+
 
 
 
@@ -137,4 +141,38 @@ nav {
     color: white;
     background-color: rgb(6, 146, 240);
     text-align: center;
+}
+
+.language__list {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.language {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    position: relative;
+}
+
+.language__img--wrapper {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 16px;
+}
+
+.language__img {
+    width: 100%;
+    max-width: 100px;
+    color: rgb(6, 146, 240);
+}
+
+.language__name {
+    position: absolute;
+    bottom: 0;
+    color: rgb(6, 146, 240);
 }
