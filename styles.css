@@ -126,11 +126,23 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .about__me--link {
     font-size: 50px;
     color: darkorange;
+}
+
+.about__me--img-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.about__me--img {
+    width: 100%;
 }
 
 
