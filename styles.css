@@ -105,6 +105,17 @@ nav {
     font-size: 30px;
 }
 
+.about__me--links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about__me--link {
+    font-size: 50px;
+    color: darkorange;
+}
+
 
 /* LANGUAGES */
 
