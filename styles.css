@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+span, strong {
+    color: #FF8C00;
+}
+
+.blue-color {
+    color: rgb(6, 146, 240);
+}
+
+
+li {
+    list-style-type: none;
+}
+
+p {
+    margin: 20px;
+}
+
+
+
+
+.greeting-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.greeting {
+    font-size: 32px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+
+
+/* NAV BAR */
+
+.nav-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: darkorange;
+    margin-bottom: 20px;
+}
+
+nav {
+    height: 220px;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkorange;
+}
+
+.nav__link-list {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.nav-bar__picture--mask {
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+    overflow: hidden;
+}
+
+.nav-bar__picture {
+    width: 100%;
+
+    /* Improving My Picture Postion */
+    transform: scale(1.2);
+    padding-bottom: 800px;
+}
+
+
+/* ABOUT ME*/
+
+#about-me {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__me--para {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/* LANGUAGES */
+
+.language__title--container {
+    display: flex;
+    align-items: center;
+    background-color: rgb(6, 146, 240);
+    text-align: center;
+}
+
+.language-title {
+    font-size: 40px;
+    color: white;
+    background-color: rgb(6, 146, 240);
+    text-align: center;
+}
