@@ -20,6 +20,12 @@ li {
     list-style-type: none;
 }
 
+h2 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
 p {
     margin: 20px;
 }
@@ -28,6 +34,7 @@ p {
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
+    padding: 0 12px;
 }
 
 .container {
@@ -129,18 +136,10 @@ nav {
 
 /* LANGUAGES */
 
-.language__title--container {
-    display: flex;
-    align-items: center;
-    background-color: rgb(6, 146, 240);
-    text-align: center;
-}
+
 
 .language-title {
-    font-size: 40px;
-    color: white;
     background-color: rgb(6, 146, 240);
-    text-align: center;
 }
 
 .language__list {
@@ -175,4 +174,25 @@ nav {
     position: absolute;
     bottom: 0;
     color: rgb(6, 146, 240);
+}
+
+/* PROJECTS */
+
+.project {
+    margin-bottom: 150px;
+}
+
+.project-title {
+    background-color: rgb(255, 96, 96)
+}
+
+.project__wrapper {
+    display: flex;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.project__img {
+    width: 100%;
 }
